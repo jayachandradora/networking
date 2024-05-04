@@ -119,7 +119,15 @@ public class WebSocketClient {
     }
 }
 ```
+In this Java code:
 
+*  WebSocketClient class is annotated with @ClientEndpoint to mark it as a WebSocket client.
+*  The constructor establishes a WebSocket connection to the specified endpoint URI.
+*  onOpen method is invoked when the WebSocket connection is successfully opened.
+*  onMessage method is invoked when a message is received from the server.
+*  sendMessage method sends a message to the server.
+
+You would need to include the appropriate dependencies for the WebSocket library you choose to use. This code demonstrates the usage of javax.websocket, but you may need to adjust it based on your specific requirements and the WebSocket library you use.
 
 ## License
 
