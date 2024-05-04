@@ -26,8 +26,16 @@ An IP (Internet Protocol) address is a unique numerical label assigned to each d
 
 ## Private vs Public IP Addresses
 
-- **Private IP Addresses**: Reserved for use within private networks and are not routable on the public Internet.
-- **Public IP Addresses**: Assigned by ISPs (Internet Service Providers) and are routable on the public Internet.
+- **Private IP Addresses**:
+  Reserved for use within private networks and are not routable on the public Internet.
+
+  Common private IP address ranges include:
+  *  Class A: 10.0.0.0 to 10.255.255.255
+  *  Class B: 172.16.0.0 to 172.31.255.255
+  *  Class C: 192.168.0.0 to 192.168.255.255
+    
+- **Public IP Addresses**:
+  Assigned by ISPs (Internet Service Providers) and are routable on the public Internet.
 
 ## DHCP (Dynamic Host Configuration Protocol)
 
