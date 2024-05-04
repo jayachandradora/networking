@@ -20,9 +20,9 @@ let's break down HTTP, TCP, and UDP communication protocols along with real-life
         *  TCP is a connection-oriented transport layer protocol responsible for ensuring reliable, ordered, and error-checked delivery of data between applications over a network.
   
   *  ###  Characteristics:
-    Connection-oriented: 
+    *  Connection-oriented: 
         TCP establishes a connection between two endpoints before data transmission, ensuring reliable delivery through mechanisms such as acknowledgment and retransmission.
-    Stream-oriented: 
+    *  Stream-oriented: 
         TCP treats data as a stream of bytes, ensuring that the data is delivered in the same order it was sent.
     
 *  ###  Real-life Use Cases:
@@ -33,9 +33,9 @@ let's break down HTTP, TCP, and UDP communication protocols along with real-life
 ## 3. UDP (User Datagram Protocol):
   *. **Description:** UDP is a connectionless transport layer protocol that provides unreliable, unordered, and minimal overhead delivery of datagrams between applications.
   *  ###  Characteristics:
-    Connectionless: 
+    *  Connectionless: 
         UDP does not establish a connection before sending data, making it faster and more lightweight than TCP.
-    Unreliable: 
+    *  Unreliable: 
         UDP does not guarantee delivery or order of packets, which may be lost, duplicated, or arrive out of order.
     
   *  ###  Real-life Use Cases:
