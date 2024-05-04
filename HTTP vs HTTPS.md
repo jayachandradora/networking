@@ -10,8 +10,8 @@
   - **Port**: Default port for HTTP is 80.
 
 - **Real-life Examples**:
-  - Reading news articles on a website.
-  - Browsing a blog.
+  - **Example 1:** Reading news articles on a website. When you visit a news website and read articles, your browser communicates with the server using HTTP to fetch the content of the articles and display them on your screen.
+  - **Example 2:** Browsing a blog. When you visit a blog website, HTTP is used to retrieve blog posts, images, and other resources from the server to display on your browser.
 
 ## HTTPS (Hypertext Transfer Protocol Secure)
 
