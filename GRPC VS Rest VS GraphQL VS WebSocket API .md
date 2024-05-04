@@ -80,7 +80,7 @@ Consider a real-time chat application where users can exchange messages instantl
 
 ## Code Example
 
-### Client-side WebSocket connection (JavaScript)
+### Client-side WebSocket connection (Java)
 
 ```java
 import javax.websocket.ClientEndpoint;
