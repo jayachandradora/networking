@@ -1,5 +1,3 @@
-# HTTP VS HTTPS
-
 # HTTP vs HTTPS: A Comparison
 
 ## HTTP (Hypertext Transfer Protocol)
