@@ -24,8 +24,8 @@
   - **Port**: Default port for HTTPS is 443.
 
 - **Real-life Examples**:
-  - Online Shopping.
-  - Logging into a banking website.
+  - **Example 1:** Online Shopping. When you make a purchase on an e-commerce website, HTTPS ensures that your payment information, such as credit card details, is encrypted during transmission, protecting it from unauthorized access.
+  - **Example 2:** Logging into a banking website. When you log in to your online banking account, HTTPS encrypts your username and password, preventing attackers from intercepting and stealing your login credentials.
 
 ### Comparison
 
