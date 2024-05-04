@@ -1,4 +1,4 @@
-# GRPC VS Rest VS GraphQL API 
+# GRPC VS Rest VS GraphQL API VS WebSocket API
 
 # gRPC vs REST vs GraphQL API Comparison
 
@@ -44,9 +44,82 @@ This repository provides an overview and comparison of three popular API technol
   - REST: Real-time updates can be achieved using techniques like long polling or WebSockets.
   - GraphQL: Supports real-time updates through subscriptions, enabling clients to receive data changes in real-time.
 
-## Contributions
+# WebSocket API: Real-time Communication
 
-Contributions to this repository are welcome! If you have suggestions for improvements, additional use cases, or corrections, please feel free to open an issue or submit a pull request.
+## Overview
+
+WebSocket is a communication protocol that provides full-duplex communication channels over a single, long-lived TCP connection. It enables real-time, bidirectional communication between clients and servers.
+
+### Key Features
+
+- **Full-duplex Communication**: WebSocket allows both the client and server to send messages to each other simultaneously, enabling real-time interaction.
+- **Low Latency**: By maintaining a persistent connection, WebSocket reduces latency and overhead compared to traditional HTTP polling or long-polling techniques.
+- **Efficiency**: WebSocket eliminates the need for frequent HTTP requests and responses, resulting in lower network traffic and improved performance.
+
+## Real-time Example: Chat Application
+
+Consider a real-time chat application where users can exchange messages instantly:
+
+### Client-Side Implementation
+
+- The client establishes a WebSocket connection to the server upon loading the chat application.
+- Users can send messages by typing them into an input field and pressing "Send".
+- Incoming messages from other users are displayed in real-time on the client's screen without refreshing the page.
+
+### Server-Side Implementation
+
+- The server listens for incoming WebSocket connections and maintains a list of connected clients.
+- When a client sends a message, the server broadcasts it to all connected clients, ensuring real-time message delivery.
+- The server can also handle additional features such as user authentication, message persistence, and message history retrieval.
+
+### Benefits
+
+- **Real-time Interaction**: Users can exchange messages instantly without delay.
+- **Reduced Server Load**: WebSocket reduces server load by eliminating the need for frequent HTTP requests.
+- **Improved User Experience**: Real-time updates enhance the user experience by providing immediate feedback and interaction.
+
+## Code Example
+
+### Client-side WebSocket connection (JavaScript)
+
+```java
+import javax.websocket.ClientEndpoint;
+import javax.websocket.OnMessage;
+import javax.websocket.OnOpen;
+import javax.websocket.Session;
+import java.net.URI;
+
+@ClientEndpoint
+public class WebSocketClient {
+
+    private Session session;
+
+    public WebSocketClient(URI endpointURI) {
+        try {
+            WebSocketContainer container = ContainerProvider.getWebSocketContainer();
+            container.connectToServer(this, endpointURI);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    @OnOpen
+    public void onOpen(Session session) {
+        this.session = session;
+        System.out.println("WebSocket connection established.");
+    }
+
+    @OnMessage
+    public void onMessage(String message) {
+        System.out.println("Message received: " + message);
+    }
+
+    public void sendMessage(String message) {
+        this.session.getAsyncRemote().sendText(message);
+    }
+}
+```
+
 
 ## License
 
