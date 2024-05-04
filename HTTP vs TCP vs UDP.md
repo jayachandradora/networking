@@ -1,4 +1,4 @@
-# networking - HTTP vs TCP vs UDP
+# - HTTP vs TCP vs UDP
 
 This repository provides an overview of three fundamental communication protocols used in networking: HTTP (Hypertext Transfer Protocol), TCP (Transmission Control Protocol), and UDP (User Datagram Protocol). Understanding these protocols is essential for developing and deploying networked applications.
 
