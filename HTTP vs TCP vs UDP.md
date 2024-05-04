@@ -3,7 +3,7 @@
 let's break down HTTP, TCP, and UDP communication protocols along with real-life use cases for each:
 
 ## 1. HTTP (Hypertext Transfer Protocol):
-*  Description: HTTP is an application layer protocol used for transmitting hypermedia documents, such as HTML files, over the internet. It operates on top of the TCP/IP protocol suite.
+*  **Description:** HTTP is an application layer protocol used for transmitting hypermedia documents, such as HTML files, over the internet. It operates on top of the TCP/IP protocol suite.
 
   
 *  ###  Characteristics:
@@ -18,10 +18,10 @@ let's break down HTTP, TCP, and UDP communication protocols along with real-life
 ## 2. TCP (Transmission Control Protocol):
   *  ###  Description:
         *  TCP is a connection-oriented transport layer protocol responsible for ensuring reliable, ordered, and error-checked delivery of data between applications over a network.
-          
+  
   *  ###  Characteristics:
-    *  **Connection-oriented:** TCP establishes a connection between two endpoints before data transmission, ensuring reliable delivery through mechanisms such as acknowledgment and retransmission.
-    *  **Stream-oriented:** TCP treats data as a stream of bytes, ensuring that the data is delivered in the same order it was sent.
+    **Connection-oriented:** TCP establishes a connection between two endpoints before data transmission, ensuring reliable delivery through mechanisms such as acknowledgment and retransmission.
+    **Stream-oriented:** TCP treats data as a stream of bytes, ensuring that the data is delivered in the same order it was sent.
     
 *  ###  Real-life Use Cases:
   *  **File Transfer:** When you download a file from a server, TCP ensures that the file is transferred reliably and in the correct order, even if there are network errors or congestion.
@@ -29,10 +29,11 @@ let's break down HTTP, TCP, and UDP communication protocols along with real-life
   *  **Remote Desktop:** Applications like Remote Desktop Protocol (RDP) use TCP to provide a reliable connection for remote desktop access.
     
 ## 3. UDP (User Datagram Protocol):
-  *. Description: UDP is a connectionless transport layer protocol that provides unreliable, unordered, and minimal overhead delivery of datagrams between applications.
+  *. **Description:** UDP is a connectionless transport layer protocol that provides unreliable, unordered, and minimal overhead delivery of datagrams between applications.
   *  ###  Characteristics:
-    *  **Connectionless:** UDP does not establish a connection before sending data, making it faster and more lightweight than TCP.
-    *  **Unreliable:** UDP does not guarantee delivery or order of packets, which may be lost, duplicated, or arrive out of order.
+    * Connectionless: UDP does not establish a connection before sending data, making it faster and more lightweight than TCP.
+    *  Unreliable: UDP does not guarantee delivery or order of packets, which may be lost, duplicated, or arrive out of order.
+    
   *  ###  Real-life Use Cases:
   *  **Real-time Communication:** Applications like VoIP (Voice over Internet Protocol) and video conferencing use UDP for real-time communication, prioritizing low latency over reliability.
   *  **Streaming Media:** UDP is commonly used for streaming audio and video, where occasional packet loss is acceptable as long as the media playback remains smooth.
