@@ -24,9 +24,9 @@ DNS (Domain Name System) is a distributed naming system used to translate domain
 
 ## Real-Life Scenarios
 
-- **Accessing Websites**: DNS enables you to access websites by translating domain names into IP addresses.
-- **Sending Emails**: DNS is used to locate the mail server associated with a recipient's email address.
-- **Streaming Media**: DNS resolves domain names for streaming media services like Netflix or YouTube.
-- **Remote Access**: DNS enables remote access to devices using domain names instead of IP addresses.
+- **Accessing Websites**: DNS enables you to access websites by translating domain names into IP addresses.For example, when you type "www.google.com" into your browser, DNS resolves it to an IP address, allowing you to connect to Google's servers.
+- **Sending Emails**: DNS is used to locate the mail server associated with a recipient's email address. When you send an email to someone, your email client queries DNS to find the MX (Mail Exchange) records for the recipient's domain to deliver the email.
+- **Streaming Media**: DNS resolves domain names for streaming media services like Netflix or YouTube, allowing you to access and stream videos by translating domain names into the IP addresses of content delivery servers.
+- **Remote Access**: DNS enables remote access to devices using domain names instead of IP addresses.For example, when you connect to a remote server using SSH (Secure Shell), DNS translates the server's hostname to its IP address for communication.
 
 DNS plays a crucial role in facilitating internet communication and accessing online services, making it an essential component of our daily interactions with the internet.
