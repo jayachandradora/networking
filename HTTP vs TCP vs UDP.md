@@ -13,18 +13,18 @@ This repository provides an overview of three fundamental communication protocol
 ##  Real-life Use Cases
 
 ###  HTTP:
-**Web Browsing:** Accessing websites and retrieving web pages, images, and other resources.
-**RESTful APIs:** Communicating with web services and APIs using HTTP methods for resource manipulation.
+**Web Browsing:** Accessing websites and retrieving web pages, images, and other resources. </br >
+**RESTful APIs:** Communicating with web services and APIs using HTTP methods for resource manipulation.</br >
 
 ###  TCP:
-**File Transfer:** Reliable transfer of files between clients and servers, ensuring data integrity.
-**Email (SMTP, IMAP, POP):** Sending and receiving emails securely and reliably.
+**File Transfer:** Reliable transfer of files between clients and servers, ensuring data integrity.</br >
+**Email (SMTP, IMAP, POP):** Sending and receiving emails securely and reliably.</br >
 **Remote Desktop:** Accessing remote desktops and providing a seamless user experience.
 
 ###  UDP:
 
-**Real-time Communication:** VoIP, video conferencing, and instant messaging applications requiring low latency.
-**Streaming Media:** Delivery of audio and video content with minimal delay, suitable for live streaming and on-demand media.
+**Real-time Communication:** VoIP, video conferencing, and instant messaging applications requiring low latency.</br >
+**Streaming Media:** Delivery of audio and video content with minimal delay, suitable for live streaming and on-demand media.</br >
 **Online Gaming:** Multiplayer gaming environments where responsiveness and low latency are critical for a smooth gaming experience.
 
 let's break down HTTP, TCP, and UDP communication protocols along with real-life use cases for each:
